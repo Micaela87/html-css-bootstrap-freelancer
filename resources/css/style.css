@@ -1,3 +1,31 @@
+/* general rules */
+body {
+    color: white;
+    font-size: 10px;
+}
+
+/* star  */
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    width: 30%;
+}
+
+.star .line {
+    height: 3px;
+    background-color: white;
+    width: 100%;
+}
+
+.star .fa-star {
+    font-size: 2rem;
+    padding: 2px;
+}
+
 /* MOBILE VERSION */
 /* debugging rules */
 header div {
@@ -13,14 +41,18 @@ header {
 }
 
 /* banner */
-.jumbo {
-    background-color: crimson;
-    height: 400px;
+.banner {
+    background-color: #1abc9c;
 }
 
-.jumbo div {
-    background-color: cyan;
-    height: 400px;
+.banner .container img {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.user {
+    font-size: 1.2rem;
+    padding: 10px 0;
 }
 
 /* portfolio */
@@ -71,4 +103,13 @@ header {
 footer {
     background-color: #2c3e50;
     height: 200px;
+}
+
+/* TABLET VERSION */
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 992px) {
+    .star {
+        width: 22%;
+    }
 }
