@@ -170,13 +170,45 @@ form .form-button {
 
 /* info */
 .info {
-    background-color: firebrick;
+    background-color: #3a546d;
+    padding-bottom: 20px;
 }
 
-.info .debug {
-    background-color: green;
-    border: 1px solid black;
-    height: 300px;
+.info h4 {
+    font-size: 1.2rem;
+}
+
+.info span, .info p {
+    font-size: 1rem;
+}
+
+.info .icon {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 5px 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    padding: 9px 13px;
+}
+
+.fa-linkedin-in {
+    padding: 8px 10px;
+}
+
+.fa-google-plus-g {
+    padding: 9px 8px;
+}
+
+.fa-twitter {
+    padding: 9px 9px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #1abc9c
 }
 
 /* footer */
