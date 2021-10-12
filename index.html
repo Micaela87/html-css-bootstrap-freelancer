@@ -12,12 +12,19 @@
 <body>
     <!-- header -->
     <header>
-        <div class="container-md">
-            <div class="row">
+        <div class="container px-md-0">
+            <div class="navbar">
                 <div class="col">
-                    <h3>START BOOTSTRAP</h3>
+                    <span>START BOOTSTRAP</span>
                 </div>
-                <div class="col-2  col-md-3"></div>
+                <div class="col-2 col-md-5 text-end">
+                    <span><i class="fas fa-bars" id="dropdown"></i></span>
+                    <ul id="hidden-menu">
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li id="center-li"><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -172,5 +179,6 @@
             <span>Copyright &copy; Your Website 2019</span>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
