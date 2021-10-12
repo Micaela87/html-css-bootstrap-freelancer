@@ -5,7 +5,7 @@ body {
 }
 
 /* star  */
-.flex-container {
+.star-flex-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -57,14 +57,29 @@ header {
 
 /* portfolio */
 .portfolio {
-    background-color: darkblue;
+    color: black;
+    padding: 35px 0;
 }
 
-.portfolio .debug {
+.portfolio .star-flex-container {
+    margin: 20px 0;
+}
+
+.portfolio .line {
+    background-color: black;
+}
+
+.portfolio img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* .portfolio .debug {
     background-color: darkgoldenrod;
     height: 200px;
     border: 1px solid black;
-}
+} */
 
 /* about */
 .about {
