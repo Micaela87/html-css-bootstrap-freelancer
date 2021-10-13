@@ -46,7 +46,7 @@ header {
     position: relative;
 }
 
-#hidden-menu {
+.hidden-menu {
     display: none;
     list-style-type: none;
     position: absolute;
@@ -249,17 +249,18 @@ footer span {
         display: none;
     }
 
-    #hidden-menu {
+    .hidden-menu {
+        list-style-type: none;
         position: static;
-        display: flex;
+        display: flex !important;
         align-items: center;
         justify-content: flex-end;
         margin-top: 0;
         margin-bottom: 0;
-    }
-    
-    .navbar ul li {
-        list-style-type: none;
+        z-index: 0;
+        right: 0;
+        padding: 0;
+        background-color: transparent;
     }
     
     #center-li {
